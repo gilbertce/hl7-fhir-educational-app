@@ -17,6 +17,26 @@
             Explore how a simulated HL7 v2 lab result can be represented
             using FHIR-style JSON.
         </p>
+
+        <section>
+            <h2>HL7 v2 Message</h2>
+
+            <p>
+                Paste a simulated HL7 v2 message below or load a sample message.
+            </p>
+
+            <textarea
+                id="hl7-input"
+                rows="12"
+                cols="80"
+                placeholder="Enter HL7 v2 message here..."
+            ></textarea>
+
+            <div>
+                <button id="load-sample-button">Load Sample</button>
+                <button id="parse-button">Parse Message</button>
+            </div>
+        </section>
     </main>
 
     <script src="js/app.js"></script>
